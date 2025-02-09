@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.svg"; // Update with your local logo path
+import Logo from "../../assets/logo.svg"; 
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
