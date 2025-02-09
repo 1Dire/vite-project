@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 설명
 
-Currently, two official plugins are available:
+- **설치 및 실행 방법**:
+  - `npm install`을 통해 필요한 의존성을 설치합니다.
+  - `npm run dev`로 개발 서버를 시작합니다.
+  - `npm run build`로 프로덕션 빌드를 생성합니다.
+  - `npm run preview`로 빌드한 앱을 로컬에서 미리보기 할 수 있습니다.
+  
+- **ESLint 설정**:
+  - `npm run lint` 명령어로 ESLint를 실행하여 코드 품질을 유지할 수 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+이제 `README.md` 파일에 프로젝트 실행 방법이 잘 정리되어 있습니다. 추가적으로 필요에 맞게 수정하여 사용할 수 있습니다!
