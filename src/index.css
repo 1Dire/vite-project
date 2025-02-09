@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@media (max-width: 375px) {
+    .mySwiper {
+        height: 450px;
+      }
+      .slide-container .title {
+        max-width: 500px;
+        font-size: 25px;
+        padding:0 70px;
+      }
+      .slide-container .description {
+        max-width: 620px;
+        font-size: 15px;
+        padding:0 70px;
+      }
+      .card-container {
+        padding: 50px 0;
+      }
+}
+
+/* 375px 이상 810px 이하 */
+@media (min-width: 376px) and (max-width: 810px) {
+    .mySwiper {
+        height: 500px;
+      }
+      .slide-container .title {
+        max-width: 500px;
+        font-size: 35px;
+        padding:0 70px;
+      }
+      .slide-container .description {
+        max-width: 620px;
+        font-size: 20px;
+        padding:0 70px;
+      }
+      .card-container {
+        padding: 80px 0;
+      }
+}
+
+/* 810px 이상 1920px */
+@media (min-width: 811px) and (max-width: 1920px) {
+  .mySwiper {
+    height: 745px;
+  }
+  .slide-container .title {
+    max-width: 500px;
+    font-size: 35px;
+    padding:0 70px;
+  }
+  .slide-container .description {
+    max-width: 620px;
+    font-size: 20px;
+    padding:0 70px;
+  }
+  .card-container {
+    padding: 100px 0;
+  }
+}
+
+/* 1920px 이상 */
+@media (min-width: 1920px) {
+  .mySwiper {
+    height: 745px;
+  }
+  .slide-container .title {
+    max-width: 500px;
+    font-size: 71px;
+  }
+  .slide-container .description {
+    max-width: 620px;
+    font-size: 31px;
+  }
+  .card-container {
+    padding: 160px 0;
+  }
+
+  .swiper-button-next {
+    right: 45px !important;
+  }
+
+  .swiper-button-prev {
+    left: 45px !important;
+  }
+}
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* swiper */
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  color: #fff !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #fff !important;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+.slide-container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.slide-container .title {
+  font-weight: 700;
+}
+
+.slide-container .description {
+  font-weight: 200;
+}
+
+/* card */
+.card {
+  display: block;
+  cursor: pointer;
+}
+.card-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  height: 190px;
+  border-radius: 5px 5px 0 0;
+}
+.card-contents {
+  padding: 30px 30px 25px 30px;
+}
+.card-contents .title {
+  font-size: 31px;
+  font-weight: 600;
+  color: #1c1d1c;
+}
+.card-contents .description {
+  font-size: 18px;
+  font-weight: 400;
+  height: 120px;
+  color: #424242;
+}
+
+.card-contents .description2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
