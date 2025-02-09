@@ -1,6 +1,6 @@
 import React from "react";
-import "./intro.css"; 
-import Carousel from "../../components/Carousel"; 
+import "./intro.css"; // CSS 파일을 import
+import Carousel from "../../components/Carousel"; // Slider 컴포넌트 import
 import Card from "../../components/Card";
 const carouselData = [
   {
